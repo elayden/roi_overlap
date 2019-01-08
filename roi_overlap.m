@@ -10,7 +10,7 @@ function [output_table] = roi_overlap(clusters, atlas, labels)
 %                       cell, or x,y,z,subscripts; 2. an image file (.img/.hdr, 
 %                       .nii, .nii.gz) wherein clusters are >0 voxel values, 
 %                       and all else == 0.
-%   atlas,              Integer: 1 = AAL, 2 = Harvard-Oxford, 3 = Broddman Areas
+%   atlas,              Integer: 1 = AAL, 2 = Harvard-Oxford, 3 = Brodmann Areas
 %                       OR, filepath string specifying custom ROI/atlas file
 %                       (.img,.nii,.nii.gz)
 %   labels (optional),  use this input only if a custom atlas file is used 
